@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { QueryClient, QueryClientProvider } from 'react-query'; 
-import App from './Components/App/App';
+import App from './App.tsx'; 
 
 // creating a client 
 const client = new QueryClient();
